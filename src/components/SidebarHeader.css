@@ -1,0 +1,13 @@
+/* src/components/SidebarHeader.css */
+.sidebarHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .sidebarHeader__icons .MuiIconButton-root {
+    margin: 0 5px;
+  }
+  

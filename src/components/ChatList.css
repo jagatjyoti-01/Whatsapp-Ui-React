@@ -1,0 +1,35 @@
+/* src/components/ChatList.css */
+.chatList {
+    overflow-y: auto;
+  }
+  
+  .chatList__item {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  .chatList__item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .chatList__avatar {
+    margin-right: 15px;
+    
+  }
+  
+  .chatList__info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .chatList__itemName {
+    font-weight: bold;
+  }
+  
+  .chatList__itemLastMessage {
+    color: #777;
+  }
+  
