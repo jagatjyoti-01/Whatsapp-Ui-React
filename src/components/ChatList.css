@@ -7,7 +7,7 @@
     display: flex;
     align-items: center;
     padding: 20px;
-    border-bottom: 1px solid #ddd;
+   
     cursor: pointer;
   }
   
@@ -27,6 +27,7 @@
   
   .chatList__itemName {
     font-weight: bold;
+    padding-left: 6px;
   }
   
   .chatList__itemLastMessage {

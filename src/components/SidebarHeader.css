@@ -1,13 +1,19 @@
 /* src/components/SidebarHeader.css */
 .sidebarHeader {
+  width: 1%;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
     border-bottom: 1px solid #ddd;
+    background: rgb(247, 247, 247);
   }
   
   .sidebarHeader__icons .MuiIconButton-root {
     margin: 0 5px;
   }
-  
+  .sidebarHeader__icons{
+    display: flex;
+    flex-direction: column;
+  }

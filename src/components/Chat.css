@@ -3,6 +3,7 @@
     flex: 1;
     display: flex;
     flex-direction: column;
+    
   }
   
   .chat__header {
@@ -99,12 +100,19 @@
   .chat__footer input {
     flex: 1;
     padding: 15px 10px;
-    background-color: #f0f0f0;
+    /* background-color: #f0f0f0; */
+     background-color: #ffffff;
+    
+    outline: none;
   }
   .jyoti{
     border: 2px solid rgb(179, 169, 169);
     width: 100px ;
-    height: 30px;
+    padding-top: 8px;
+    border-radius: 8px;
+    height: 40px;
+    opacity: 0.8;
+   
 
   }
   .jaga{

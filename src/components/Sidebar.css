@@ -4,23 +4,30 @@
     border-right: 1px solid #ddd;
     display: flex;
     flex-direction: column;
+   
   }
   
   .sidebar__search {
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
+    padding:10px ;
+    padding-top: 0;
+    
   }
   
   .sidebar__search input {
     width: 90%;
     padding: 10px;
     border: none;
-    border-radius: 20px;
+    border-radius: 7px;
     background-color: #f0f0f0;
+    border-bottom: 4px solid rgb(15, 196, 15);
   }
   
   .sidebar__chats {
     flex: 1;
     overflow-y: auto;
+  }
+  .dash{
+    display: flex;
+    justify-content: space-between;
   }
   
