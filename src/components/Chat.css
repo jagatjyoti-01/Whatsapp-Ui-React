@@ -118,3 +118,20 @@
   .jaga{
     display: flex;
   }
+ @media (max-width: 768px) {
+    .chat {
+      width: 50%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .chat {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .chat {
+      display: none;
+    }
+  }
