@@ -120,13 +120,13 @@
   }
  @media (max-width: 768px) {
     .chat {
-      width: 50%;
+      width: 100%;
     }
   }
   
   @media (max-width: 576px) {
     .chat {
-      width: 100%;
+      width: 80%;
     }
   }
   
